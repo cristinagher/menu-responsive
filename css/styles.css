@@ -43,3 +43,11 @@ body {
     height: 30px;
   }
 }
+
+.menu__item {
+  padding: 0.8rem 0;
+}
+
+.show {
+  display: flex;
+}

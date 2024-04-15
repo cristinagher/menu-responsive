@@ -14,3 +14,20 @@ function changeColor() {
 }
 
 titleElement.addEventListener("click", changeColor);
+
+const buttonMenuElement = documen.getElementById("button-menu");
+const menuElement = document.getElementById("menu");
+
+// classList.contains
+// classList.remove
+// classList.add
+
+function handleMenu() {
+  if (menuElement.classList.contains("show")) {
+    menuElement.classList.remove("show");
+  } else {
+    menuElement.classList.add("show");
+  }
+}
+
+buttonMenuElementElement.addEventListener("click", handleMenu);
